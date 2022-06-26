@@ -1,0 +1,44 @@
+.link_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
+  .link{
+    display: flex;
+    align-items: center;
+    height: 36px;
+    color:var(--dark);
+    position: relative;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-transform: uppercase;
+    z-index: 10;
+    
+  }
+  .dark .link{
+    color: var(--white);
+  }
+  .link::before{
+    background-color:var(--green);
+    position: absolute;
+    bottom: 4px;
+    content: "";
+    display: inline-block;
+    height: 12px;
+    left: 0;
+    width: calc(100% - 2px);
+    transform: scale(0);
+    z-index: -1;
+    
+  }
+  /* .dark .link::before{
+    background-color: #f9004dbf;
+  } */
+  
+  .link.active::before{
+    transform: scale(1);
+  }
+  

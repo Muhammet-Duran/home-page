@@ -1,0 +1,32 @@
+.page_area{
+    display: flex;
+    align-items: center;
+    padding-top: var(--headerHeight);
+    min-height: calc(100% - var(--footerHeight));
+  }
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .page_area.light{
+    background-color: #f8f8f8;
+    color:var(--white);
+  }
+  .page_area.dark{
+    background-color: #161c24;
+    color:var(--black);
+  }
+  
+  .page{
+    width: 100%;
+    padding: 20px 10px;
+    color: var(--dark);
+    
+  
+  }
+  
+  .pages h1{
+    flex: 1;
+  }
+  

@@ -1,0 +1,28 @@
+
+.header_area{
+    height: var(--headerHeight);
+    background-color:var(--white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    border-bottom: 1px solid var(--dividerLineLight);
+}
+.header_wraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.header_area.dark{
+    background-color: var(--lightBlack);
+    border-bottom-color: var(--dividerLine);
+}
+
+.title{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--green);
+    font-weight: 600;
+}
