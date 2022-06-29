@@ -1,10 +1,10 @@
 import styles from "./Home.module.css";
-
+import { useThemeContext } from "store/ThemeContext";
 function Home() {
+  const { theme } = useThemeContext();
   return (
-    <div className={styles.home}>
+    <div className={`${styles.home} ${styles?.[theme]}`}>
       <h1 className={styles.name}>Muhammet Duran</h1>
-      <h3 className={styles.title}>Frontend Devoloper</h3>
     </div>
   );
 }

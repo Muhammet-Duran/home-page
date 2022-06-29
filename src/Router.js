@@ -5,8 +5,8 @@ function Router() {
   return (
     <Routes>
       <Route path="/" exact element={<Home />} />
-      <Route path="/projects" element={<About />} />
-      <Route path="/about" element={<Projects />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/projects" element={<Projects />} />
     </Routes>
   );
 }

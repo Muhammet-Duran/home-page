@@ -8,7 +8,7 @@ function Header() {
   return (
     <header className={`${styles.header_area} ${styles?.[theme]}`}>
       <div className={cn("container", styles.header_wraper)}>
-        <h1 className={styles.title}>my portfolio</h1>
+        <h1 className={styles.title}>M d</h1>
         <Navbar />
         <SwitchToggle themeToggle={themeToggleHandler} />
       </div>

@@ -1,5 +1,20 @@
 .home{
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+    text-align: center;
 }
+
+
+.name{
+    background: linear-gradient(to right, #7E76FF, #aa3256); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+	font-size: 84px;
+    font-weight: 600;
+	letter-spacing: 15px;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	-webkit-box-reflect : below 1px linear-gradient(transparent , #0004);
+	
+}
+

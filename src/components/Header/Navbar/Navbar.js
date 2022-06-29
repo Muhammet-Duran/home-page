@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useThemeContext } from "../../../store/ThemeContext";
 import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";

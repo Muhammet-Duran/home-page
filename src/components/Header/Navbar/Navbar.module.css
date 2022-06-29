@@ -22,7 +22,7 @@
     color: var(--white);
   }
   .link::before{
-    background-color:var(--green);
+    background-color: var(--blue);
     position: absolute;
     bottom: 4px;
     content: "";
@@ -34,9 +34,7 @@
     z-index: -1;
     
   }
-  /* .dark .link::before{
-    background-color: #f9004dbf;
-  } */
+  
   
   .link.active::before{
     transform: scale(1);
