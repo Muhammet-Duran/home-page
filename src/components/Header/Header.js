@@ -1,6 +1,7 @@
 import SwitchToggle from "../ui/SwitchToggle/SwitchBtn";
 import Navbar from "./Navbar/Navbar";
 import styles from "./Header.module.css";
+
 import cn from "classnames";
 import { useThemeContext } from "../../store/ThemeContext";
 function Header() {

@@ -8,6 +8,7 @@
     width: 100%;
     z-index: 99;
     border-bottom: 1px solid var(--dividerLineLight);
+    transition: background-color .5s ease;
 }
 .header_wraper{
     display: flex;
@@ -18,6 +19,7 @@
 .header_area.dark{
     background-color: var(--lightBlack);
     border-bottom-color: var(--dividerLine);
+    transition: background-color .5s ease;
 }
 
 .title{
@@ -29,3 +31,9 @@
 .dark .title{
     color: var(--blue);
 }
+
+@media screen and (max-width:600px){
+    .link{
+      font-size: 18px;
+    }
+  }

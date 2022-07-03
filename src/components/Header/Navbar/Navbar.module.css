@@ -39,4 +39,18 @@
   .link.active::before{
     transform: scale(1);
   }
+
+@media screen and (max-width:600px){
+  .link_list{
+    padding: 9px;
+  }
+  .link{
+    font-size: 18px;
+  }
+  .link::before{
+    height: 9px;
+    bottom: 7px;
+
+  }
+}
   

@@ -3,6 +3,7 @@
     align-items: center;
     padding-top: var(--headerHeight);
     min-height: calc(100% - var(--footerHeight));
+    
   }
 .wrapper{
   display: flex;
@@ -12,15 +13,17 @@
   .page_area.light{
     background-color: #f8f8f8;
     color:var(--white);
+    transition: background-color .5s ease;
   }
   .page_area.dark{
     background-color: #161c24;
     color:var(--black);
+    transition: background-color .5s ease;
   }
   
   .page{
     width: 100%;
-    padding: 20px 10px;
+   
     color: var(--dark);
     
   

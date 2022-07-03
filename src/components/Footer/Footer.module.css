@@ -1,6 +1,7 @@
 .footer{
     height: var(--footerHeight);
    border-top: 1px solid var(--dividerLineLight);
+   transition: background-color .5s ease;
 
 }
 
@@ -13,6 +14,7 @@
 .footer.dark{
     background-color: var(--lightBlack);
     border-top-color: var(--dividerLine);
+    transition: background-color .5s ease;
 }
 .mail_link{
     padding-left: 16px;
@@ -23,4 +25,10 @@
 }
 .dark .mail_link{
     color: var(--white);
+    
+}
+@media screen and (max-width:600px){
+    .mail_link{
+        font-size: 14px;
+    }
 }

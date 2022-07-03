@@ -1,0 +1,114 @@
+.projects{
+    margin-top: var(--space-5);
+    margin-bottom: var(--space-5);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap:24px;
+    
+}
+.item{
+    background-color: var(--white);
+    padding: 30px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid var(--dividerLineLight);
+    box-shadow: 0px 14px 28px rgb(0 0 0 / 8%);
+    -webkit-box-shadow:0px 14px 28px rgb(0 0 0 / 8%);
+    cursor: pointer;
+
+}
+.dark .item{
+    box-shadow: 0px 14px 28px rgb(134 151 168 / 8%);
+    -webkit-box-shadow:0px 14px 28px rgb(134 151 168 / 8%);
+    background-color: var(--lightBlack);
+    border-color: var(--dividerLine);
+}
+.item:hover{
+    box-shadow: 0px 14px 28px rgb(0 0 0 /20%);
+    -webkit-box-shadow:0px 14px 28px rgb(0 0 0 /20%);
+   
+}
+.dark .item:hover{
+    -webkit-box-shadow:5px 14px 28px rgb(134 151 168 / 20%);
+    box-shadow: 5px 14px 28px rgb(134 151 168 / 20%);
+}
+.item_img{
+    width: 100%;
+    max-height: 360px;
+    flex: 1;
+    border-radius: 15px;
+    overflow: hidden;
+}
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item_text{
+    min-height: 25%;
+    margin-top: var(--space-5);
+}
+h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--blue);
+    letter-spacing: .6px;
+}
+.description{
+    margin-top: var(--space-3);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: var(--dark);
+    letter-spacing: .2px;
+}
+.dark .description{
+    color: var(--white);
+}
+.techs_area{
+    margin-top: 4px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: -8px;
+}
+.tech_stack{
+    margin-top: 8px;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+
+@media screen and (max-width:600px){
+    .projects{
+        display: block;
+        margin-top: var(--space-3);
+    }
+    .item{
+        padding: 20px 12px 16px;
+        margin-top: 12px;
+    }
+    .item_text{
+        margin-top: var(--space-3);
+    }
+    h3{
+        font-size: 20px;
+        letter-spacing: .2px;
+    }
+    .description{
+        margin-top: 8px;
+        font-size: 13px;
+        line-height:18px;
+    }
+    .tech_stack{
+        font-weight: 300;
+    }
+    
+}

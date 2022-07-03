@@ -4,14 +4,9 @@ import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 const linksArray = [
   { id: 0, label: "home", to: "/", isActive: true },
+
   {
     id: 1,
-    label: "about",
-    to: "/about",
-    isActive: false,
-  },
-  {
-    id: 2,
     label: " projects",
     to: "/projects",
     isActive: false,
