@@ -1,4 +1,4 @@
-# Movie App - [Demo](https://movie-app-muhammet-duran.vercel.app/)
+# Movie App - [Demo](https://portfolio-muhammet-duran.vercel.app/)
 
 ## 💻 Tech-Stack
 
@@ -8,10 +8,10 @@
 
 ## Development
 
-To install and work on `https://github.com/Muhammet-Duran/Movie-App`
+To install and work on `https://portfolio-muhammet-duran.vercel.app/`
 
 ```bash
-git clone https://github.com/Muhammet-Duran/Movie-App
+git clone https://github.com/Muhammet-Duran/home-page.git
 cd movie-app
 npm install or yarn install
 ```

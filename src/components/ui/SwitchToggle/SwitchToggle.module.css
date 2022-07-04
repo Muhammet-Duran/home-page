@@ -2,7 +2,7 @@
 
 
   .switch {
-    width: 90px;
+    width: 75px;
     height: 36px;
     border-radius: 50px;
     background: var(--black);
@@ -38,7 +38,7 @@
     transition: left 0.3s ease;
   }
   .switch_right .switch__thumb {
-    left: calc(90px - 23px - 7px);
+    left: calc(75px - 23px - 7px);
   }
   .icon_sun svg{
     color: #F06000;

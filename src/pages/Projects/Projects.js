@@ -20,7 +20,7 @@ function Projects() {
           <img src={moviesapp} alt="toDoImg" />
         </div>
         <div className={styles.item_text}>
-          <h3>Weather Forecast App</h3>
+          <h3>Movies App</h3>
           <p className={styles.description}>
             I built a movie application with React JS,we can search for movies
             we like.You can add to your favorite list
