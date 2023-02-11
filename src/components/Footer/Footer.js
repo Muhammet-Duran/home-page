@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className={`${styles.footer} ${styles?.[theme]}`}>
       <div className={cn("container", styles.footer_wrapper)}>
-        <p className={styles.mail_link}>m.duranim@gmail.com</p>
+        <a href="mailto:mhmmtduran01@gmail.com"className={styles.mail_link}>mhmmtduran01@gmail.com</a>
       </div>
     </footer>
   );
